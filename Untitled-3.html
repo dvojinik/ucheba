@@ -1,14 +1,20 @@
 <!DOCTYPE html>
-<html>
+<html style="color:red;">
     <head>
         <title>Унти тюнти.</title>
     <meta charset="UTF-8">
     <meta name="keywords" content="Унти тюнти.">
     <meta name="description" content="Как работать с HTML. И прочие тонкости.">
     <link rel="shortcut icon" href="file:///home/slavik/Desktop/Untitled-3.html">
+    <link rel="stylesheet" href="Untitled-3style.css">
+    <style>
+        table{
+            color: tomato;
+        }
+    </style>
     </head>
 <body>
-    <p><h1>Коротко (Но без воды)</h1></p>
+    <p><h1 style="color: rgb(133, 61, 9);">Коротко (Но без воды)</h1></p>
      <p id="ideveloper">Я просто учусь. Пробую, тренеруюся, ошибаюся и снова пробую. Консперологов прошу не беспокоиться.<br><em> Зачем я про консирологов? Вроде хорошие ребята.</em></p>
 
     <a href="https://www.youtube.com/watch?v=IEaR7a9-idg">Переход на онлайн репититора.</a>
@@ -29,7 +35,7 @@
             <thead>
                 <tr>
                     <th>Тэги(Название и обозначение)</th>
-                     <th>Значение Тэга</th>
+                     <th style="color: seagreen;">Значение Тэга</th>
                      <th>Атрибуты</th>
                 </tr>
             </thead>
@@ -82,8 +88,29 @@
 <p>Вставляю картинку.Используем тэг-img. img-Не закрывается. При нём атрибут src.<br>
 (Сей час использовал тэг-br(перенос строки))src от(англ.)-sjurce-источник.  <br>
  img src="Относительный или абсолютный путь к картинке."</p>
- <a href="https://www.youtube.com/watch?v=zns8erOgC6U">Непдохой источник информации.</a><br>
+ <a href="https://www.youtube.com/watch?v=zns8erOgC6U">Неплохой источник информации.</a><br>
 <img src="https://citydog.by/content/_posts/442X361/5e2c4f627a5bc.jpeg" width="70%" height="300"><br> 
-<img src ="" width="100%" height="500">
+<img src="Bersjpga.jpg" width="150" height="300">
+
+<table border="6" bordercolor="rad">
+    <thead>
+        <tr>
+            <th>картинка в рамке.</th>
+            <th>Просто добавь воды.</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Можно добавить даже йоду.</td>
+            <td><img src="https://www.ejin.ru/wp-content/uploads/2019/05/jarkaja-osen.jpeg" width="1000"></td>
+        </tr>
+    </tbody>
+        <tfoot>
+            <tr>
+                <th colspan="2"><img src="https://avatars.mds.yandex.net/get-pdb/2838754/636f0c89-4c8e-4103-90c0-6a82efa0c82f/s1200?webp=false" width="100%" height="100"></th>
+            </tr>
+        </tfoot>
+    </tbody>
+</table>
 </body>
 </html>
