@@ -19,7 +19,7 @@
 !DOCTYPE html<br>
 html<br>
 head<br>
-<h3>Погнали дальше!</h3> 
+<h3 id="povtorenie">Погнали дальше!</h3> 
     Дальше напишим тэг title За ним , латиницей, название сайта, страницы. /title закрывающий тэг. Пятая строка. Тэг meta внутри его атрибут  charset="UTF-8"(дабы ушатать вопросы с языками.)
     Ешё пальше.; Ешё одно описяние сайта- meta name="description" content="Подробности про html и css"
   <h3>Переобуваемся на ходу.</h3>
@@ -80,6 +80,7 @@ head<br>
     <li>Ниже td(Или th) текст /td(или th)</li>
     <li>Ниже td(Или th) текст /td(или th)</li>
     <li>Ниже /tr</li>
+    <li>food-Подвал</li>
     <li>Ниже /tfood</li>
     <li>Ниже /table</li>
     <li>Должно получиться, что то вроде этого.</li>
@@ -87,7 +88,7 @@ head<br>
         <thead>
             <tr>
                 <th>Тэги(Название и обозначение)</th>
-                 <th style="color: seagreen;">Значение Тэга</th>
+                 <th>Значение Тэга</th>
                  <th>Атрибуты</th>
             </tr> 
         </thead>
@@ -111,6 +112,40 @@ head<br>
             </tr>
         </tfood>        
     </table>
+    <li>Заостряю внимание. В подвале, всего, одна строка. В таблице используется спеуальный атрибут colspan="3".Тут цифра 3-количество обединённых ячеек.</li>
+    <li>Так это выглядит. th colspan="3" Ну..? Как-то так. /th   </li>
+    <hr>
+    <li><em>Вставлю картинку в ячейку таблицы.</em></li>
+    <li>Для начала видео обучайка.</li>
+    <li> <a href="https://www.youtube.com/watch?v=zns8erOgC6U" target="_blank">Неплохой источник информации.</a><br></li>
+    <li>Используем тэг-img. img-Не закрывается. При нём атрибут src.<br>
+        (Сей час использовал тэг-br(перенос строки))src от(англ.)-sjurce-источник.  <br>
+         img src="Относительный или абсолютный путь к картинке. URL-адрес."</li>
+    <li>В том же тэге width="70" Здесь 70 это пиксили.</li>
+    <li>Или так- width="70%". Здесь 70 это проценты экрана занятые картинкой.</li>
+    <li>И следом, через пробел, height="300". С цифрами та же история, что и в предыдущем атрибуте.</li>
+    <li>Вот такой вид. img src="https://citydog.by/content/_posts/442X361/5e2c4f627a5bc.jpeg" width="70%" height="300" </li>
+    <li>Смотрим таблицу.</li>
+    <table border="6">
+        <thead>
+            <tr>
+                <th>картинка в рамке.</th>
+                <th><p id="#povtorenie"> сноска на строку</p></th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Можно добавить даже йоду.</td>
+                <td><img src="https://www.ejin.ru/wp-content/uploads/2019/05/jarkaja-osen.jpeg" width="1000"></td>
+            </tr>
+        </tbody>
+            <tfoot>
+                <tr>
+                    <th colspan="2"><img src="https://avatars.mds.yandex.net/get-pdb/2838754/636f0c89-4c8e-4103-90c0-6a82efa0c82f/s1200?webp=false" width="100%" height="100"></th>
+                </tr>
+            </tfoot>
+        </table>
+    
 
 
     
